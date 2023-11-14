@@ -1,2 +1,2 @@
-URL = "https://www.google.com/maps/place/Google+UK/@51.5332608,-0.1304879,17z/data=!4m7!3m6!1s0x48761b3c54efa6e1:0xc7053ab04745950d!8m2!3d51.5332609!4d-0.1260032!9m1!1b1"
-DriverLocation = "./Driver/chromedriver.exe"
+URL = "https://www.google.com/maps/place/Handyside+Gardens/@51.5349604,-0.1220026,17z/data=!4m18!1m9!3m8!1s0x48761b3c54efa6e1:0xc7053ab04745950d!2sGoogle+London+-+Pancras+Square!8m2!3d51.5332609!4d-0.1260032!9m1!1b1!16s%2Fg%2F11bz0l7w_6!3m7!1s0x48761b15fb98bd8d:0x945959f385a5cce3!8m2!3d51.536263!4d-0.1229707!9m1!1b1!16s%2Fg%2F1q5bmmfg_?entry=ttu"
+DriverLocation = "C:\webdrivers\chromedriver.exe"
