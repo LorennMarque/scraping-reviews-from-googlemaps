@@ -10,6 +10,8 @@ import pandas as pd
 
 from env import URL, DriverLocation
 
+# Rotate User Agent would be helpful
+
 def get_data(driver):
     """
     this function get main text, score, name
@@ -69,12 +71,12 @@ def write_to_xlsx(data):
 if __name__ == "__main__":
 
     print('starting...')
-    # options = webdriver.ChromeOptions()
-    # options.add_argument("--headless")  # show browser or not
+    options = webdriver.FirefoxOptions()
+    options.add_argument("--headless")  # show browser or not ||| HEAD =>  43.03 ||| No Head => 39 seg
     # options.add_argument("--lang=en-US")
     # options.add_experimental_option('prefs', {'intl.accept_languages': 'en,en_US'})
     # DriverPath = Service(DriverLocation)
-    driver = webdriver.Firefox()
+    driver = webdriver.Firefox(options=options)
 
     driver.get(URL)
     time.sleep(5)
